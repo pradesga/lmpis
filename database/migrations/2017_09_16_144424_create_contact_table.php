@@ -14,10 +14,10 @@ class CreateContactTable extends Migration {
 	{
 		Schema::create('contact', function(Blueprint $table)
 		{
-			$table->string('contact_id', 225)->primary();
-			$table->string('contact_type_id', 225)->index('contact_type_id');
-			$table->string('initial', 225);
-			$table->string('name', 225);
+			$table->string('contact_id', 255)->primary();
+			$table->string('contact_type_id', 255)->index('contact_type_id');
+			$table->string('initial', 255);
+			$table->string('name', 255);
 		});
 	}
 

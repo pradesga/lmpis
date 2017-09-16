@@ -14,8 +14,8 @@ class CreateAddressTypeTable extends Migration {
 	{
 		Schema::create('address_type', function(Blueprint $table)
 		{
-			$table->string('address_type_id', 225)->primary();
-			$table->string('type', 225);
+			$table->string('address_type_id', 255)->primary();
+			$table->string('type', 255);
 		});
 	}
 

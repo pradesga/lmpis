@@ -14,8 +14,8 @@ class CreateContactAddressTable extends Migration {
 	{
 		Schema::create('contact_address', function(Blueprint $table)
 		{
-			$table->string('contact_id', 225)->index('contact_id');
-			$table->string('address_id', 225)->index('address_id');
+			$table->string('contact_id', 255)->index('contact_id');
+			$table->string('address_id', 255)->index('address_id');
 		});
 	}
 

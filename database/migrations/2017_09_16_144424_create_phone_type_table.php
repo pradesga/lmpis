@@ -14,8 +14,8 @@ class CreatePhoneTypeTable extends Migration {
 	{
 		Schema::create('phone_type', function(Blueprint $table)
 		{
-			$table->string('phone_type_id', 225)->primary();
-			$table->string('type', 225);
+			$table->string('phone_type_id', 255)->primary();
+			$table->string('type', 255);
 		});
 	}
 

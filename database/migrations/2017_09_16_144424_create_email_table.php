@@ -14,8 +14,8 @@ class CreateEmailTable extends Migration {
 	{
 		Schema::create('email', function(Blueprint $table)
 		{
-			$table->string('email_id', 225)->primary();
-			$table->string('email', 225);
+			$table->string('email_id', 255)->primary();
+			$table->string('email', 255);
 		});
 	}
 

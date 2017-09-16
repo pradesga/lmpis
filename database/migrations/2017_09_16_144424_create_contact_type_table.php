@@ -14,7 +14,7 @@ class CreateContactTypeTable extends Migration {
 	{
 		Schema::create('contact_type', function(Blueprint $table)
 		{
-			$table->string('contact_type_id', 225)->primary();
+			$table->string('contact_type_id', 255)->primary();
 			$table->integer('type');
 		});
 	}

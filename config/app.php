@@ -138,6 +138,12 @@ return [
 
     'providers' => [
 
+        /**
+         * Added by Ammar Faizi
+         */
+        Way\Generators\GeneratorsServiceProvider::class,
+        Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider::class,
+
         /*
          * Laravel Framework Service Providers...
          */
